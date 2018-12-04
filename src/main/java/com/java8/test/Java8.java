@@ -19,7 +19,7 @@ public class Java8 {
 Java8 j = new Java8();
 		Operation o = (a,b)->a+b;
 		Operation m = (a,b)->a*b;
-		System.out.println("addition"+ " " +j.operator(8,7,o));
+		System.out.println("addition"+ " " +o.operate(8, 2));
 		System.out.println("addition"+ " " +j.operator(8,7,m));
 	}
 
@@ -29,4 +29,8 @@ Java8 j = new Java8();
 	}
 	
 
+}
+interface Operation {
+
+	int operate(int a, int b);
 }

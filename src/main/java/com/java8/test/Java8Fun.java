@@ -12,7 +12,7 @@ public class Java8Fun {
 		List<Integer> numbers = Arrays.asList(1,4,3,5,3,8,9,55,4,2,6,0);
 		//eval(numbers, n->true);
 		//eval(numbers,n->n%2==0);
-		eval(numbers,n->n*0==n/2);
+		eval(numbers,n->n*0==2);
 		
 	}
 
